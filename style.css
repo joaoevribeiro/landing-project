@@ -10,4 +10,92 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+
+/* HEADER */
+.header {
+  background-color: #1f2937;
+}
+
+/* NAV */
+.navigation {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8rem;
+  align-items: center;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 2.4rem;
+}
+
+.navigation ul {
+  display: flex;
+  gap: 3rem;
+}
+
+.navigation ul a {
+  color: #e5e7eb;
+  font-size: 1.8rem;
+}
+
+/* HEADER SECTION */
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 7rem;
+}
+
+.header-left {
+  width: 50%;
+}
+
+.header-right {
+  width: 35%;
+}
+
+.img-header {
+  width: 100%;
+}
+
+.heading-primary {
+  font-size: 4.8rem;
+  font-weight: bolder;
+  color: #f9faf8;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.paragraph-header {
+  font-size: 1.8rem;
+  color: #e5e7eb;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background-color: #3883f6;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 2rem;
 }
