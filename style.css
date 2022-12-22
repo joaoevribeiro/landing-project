@@ -195,3 +195,17 @@ a {
   color: #fff;
   border: 0.2rem solid #fff;
 }
+
+/* FOOTER */
+.footer {
+  background-color: #1f2937;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.paragraph-footer {
+  text-align: center;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
